@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #e0f7fa; /* Light blue background */
+}
+
+.weather-app {
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #4caf50; /* Green border */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    background-color: #ffffff; /* White background for the card */
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #ff9800; /* Yellow color for the title */
+    font-size: 24px; /* Increased font size */
+}
+
+input {
+    width: 200px;
+    padding: 10px; /* Increased padding for input */
+    margin-right: 5px;
+    border: 1px solid #4caf50; /* Green border for input */
+    border-radius: 5px;
+    font-size: 16px; /* Increased font size */
+}
+
+button {
+    padding: 10px 15px; /* Button padding */
+    background-color: #2196f3; /* Blue button */
+    color: white; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Increased font size */
+}
+
+button:hover {
+    background-color: #1976d2; /* Darker blue on hover */
+}
+
+#weatherInfo {
+    display: none; /* Initially hidden */
+    margin-top: 20px;
+    border: 1px solid #4caf50; /* Green border for weather info */
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f1f8e9; /* Light green background for info */
+    color: #333; /* Dark text color */
+}
